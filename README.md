@@ -4,7 +4,7 @@
 
 *   [x] Add a **New Tab and New Router Link** for my mobile app
 *   [x] Change **Tab Button Icon** for my mobile app
-*   [x] Recall **How Create a New Branch and GIT the Files** to the repository
+*   [x] Recall **How to Create a New Branch and GIT the Files** to the repository
 
 
 ## Q2. 2 things you learned today:
