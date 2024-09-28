@@ -55,6 +55,6 @@ git checkout main
 Tired~
 
 
-# lesson 04 - (2024.09.24)
+# COMP-3170-Frontend_Web_Development_2-Lab-Week_04 - lesson 04 (2024.09.24)
 
 ## tailwind CSS
