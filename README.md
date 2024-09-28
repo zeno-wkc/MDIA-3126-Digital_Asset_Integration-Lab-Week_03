@@ -56,5 +56,4 @@ Tired~
 
 
 # lesson 04 - (2024.09.24)
-
 ## tailwind CSS
