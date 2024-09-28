@@ -29,7 +29,7 @@ export default function TabLayout() {
         name="sandwich"
         options={{
           title: 'Sandwich',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="music" color={color} />,
         }}
       />
     </Tabs>
