@@ -9,17 +9,31 @@ export default function Page() {
   const [ndata, setNdata] = useState(null);
 
   async function fetchData() {
-    const response = await fetch(DATA_URL);
-    const data = await response.json();
-    setData(data);
-    console.log(response);
+    try {
+      const response = await fetch(DATA_URL);
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+      const data = await response.json();
+      setData(data);
+    } catch (error) {    
+      // console.log(response);
+      console.error(`Could not get products: ${error}`);
+    }
   }
 
   async function fetchNData() {
-    const response = await fetch(NDATA_URL);
-    const ndata = await response.json();
-    setNdata(ndata);
-    console.log(response);
+    try {
+      const response = await fetch(NDATA_URL);
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+      const ndata = await response.json();
+      setNdata(ndata);
+    } catch (error) {    
+      // console.log(response);
+      console.error(`Could not get products: ${error}`);
+    }
   }
 
   function clearData() {
