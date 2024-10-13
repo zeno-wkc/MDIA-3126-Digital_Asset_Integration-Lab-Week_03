@@ -57,8 +57,12 @@ Tired~
 
 # COMP-3170-Frontend_Web_Development_2-Lab-Week_04 - lesson 04 (2024.09.24)
 ## tailwind CSS
-
 Edited Cheese page with tailwind css.
 
-
 # COMP-3170-Frontend_Web_Development_2-Lab-Week_05 - lesson 05 (2024.10.01)
+## Expo camera & Expo MediaLibrary
+Add Camera and MediaLibrary function. take, save, and trash the photo in the app.
+
+# COMP-3170-Frontend_Web_Development_2-Lab-Week_05 - lesson 05 (2024.10.08)
+## Async fetch data
+Create API page, Async, fetch data, try and catch, and promise - Web app.
